@@ -18,7 +18,7 @@ package com.github.peneksglazami.jfence;
 import java.lang.instrument.Instrumentation;
 
 /**
- * Agent that instruments all class and makes all declared fields volatile.
+ * Java agent that instruments classes and makes all declared fields volatile.
  * So, some memory consistency errors can be fixed. But may be not right :-)
  * <p>
  * This agent was created just for fun as example of bytecode instrumentation
